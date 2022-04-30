@@ -8,6 +8,10 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
+import com.example.appmain.FragmentChat;
+import com.example.appmain.FragmentEquipe;
+import com.example.appmain.FragmentHome;
+import com.example.appmain.FragmentRank;
 import com.example.appmain.R;
 
 /**
@@ -17,7 +21,7 @@ import com.example.appmain.R;
 public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @StringRes
-    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2};
+    private static final int[] TAB_TITLES = new int[]{R.string.tab_text_1, R.string.tab_text_2,R.string.tab_text_3,R.string.tab_text_4};
     private final Context mContext;
 
     public SectionsPagerAdapter(Context context, FragmentManager fm) {
@@ -27,9 +31,23 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
     @Override
     public Fragment getItem(int position) {
-        // getItem is called to instantiate the fragment for the given page.
-        // Return a PlaceholderFragment (defined as a static inner class below).
-        return PlaceholderFragment.newInstance(position + 1);
+        Fragment fragment = null;
+        switch (position){
+            case 0:
+                fragment = new FragmentHome();
+                break;
+            case 1:
+                fragment = new FragmentEquipe();
+                break;
+            case 2:
+                fragment = new FragmentChat();
+                break;
+            case 3:
+                fragment = new FragmentRank();
+                break;
+        }
+
+        return fragment;
     }
 
     @Nullable
@@ -41,6 +59,6 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
     @Override
     public int getCount() {
         // Show 2 total pages.
-        return 2;
+        return 4;
     }
 }
