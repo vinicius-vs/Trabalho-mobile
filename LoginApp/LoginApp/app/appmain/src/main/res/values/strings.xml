@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AppMain</string>
+    <string name="tab_text_1">Home</string>
+    <string name="tab_text_2">Equipe</string>
+    <string name="tab_text_3">Chat</string>
+    <string name="tab_text_4">Rank</string>
+</resources>
