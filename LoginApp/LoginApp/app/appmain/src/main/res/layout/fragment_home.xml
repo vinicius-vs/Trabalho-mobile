@@ -1,15 +1,61 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
-    android:gravity="center"
-    >
+    android:layout_marginTop="@android:dimen/app_icon_size"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context=".TabActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="em construção"
-        android:textSize="30sp"
-        />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="111dp"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="25dp"
+            android:background="?attr/scrimBackground"
+            android:gravity="right"
+            android:orientation="vertical"
+            android:padding="10dp"
+            android:visibility="visible">
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom"
+                    android:layout_marginHorizontal="10dp">
+
+                        <EditText
+                            android:id="@+id/editTextPublicar"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@color/white"
+                            android:inputType="textPersonName"
+                            android:padding="15dp"
+                            android:textSize="15sp" />
+                </FrameLayout>
+
+                <Button
+                    android:id="@+id/button"
+                    style="@style/Theme.LoginApp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:backgroundTint="@color/cardview_dark_background"
+                    android:text="Publicar" />
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginHorizontal="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginBottom="25dp"
+            android:background="?attr/scrimBackground">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical" />
+        </ScrollView>
+
 </LinearLayout>
