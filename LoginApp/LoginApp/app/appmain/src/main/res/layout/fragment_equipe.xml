@@ -10,7 +10,6 @@
     tools:context=".EquipeActivity"
     >
 
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="111dp"
@@ -21,15 +20,12 @@
         android:orientation="vertical"
         android:padding="10dp"
         android:visibility="visible">
-
         <LinearLayout
-
             android:orientation="horizontal"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
             android:layout_marginHorizontal="10dp">
-
             <EditText
                 android:id="@+id/editTextPublicar"
                 android:layout_width="284dp"
@@ -38,24 +34,21 @@
                 android:inputType="textPersonName"
                 android:padding="15dp"
                 android:textSize="15sp" />
-
             <ImageView
                 android:layout_marginHorizontal="5dp"
-                android:id="@+id/imageView"
+                android:id="@+id/Pesquisa"
                 android:layout_width="26dp"
                 android:layout_height="32dp"
-                android:onClick="procurarGrupos"
                 app:srcCompat="@drawable/procurando_lente_de_aumento" />
         </LinearLayout>
-
         <Button
-            android:id="@+id/button"
+            android:id="@+id/buttonCriar"
             style="@style/Theme.LoginApp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:backgroundTint="@color/cardview_dark_background"
             android:text="Criar Equipe"
-            android:onClick="CriarGrupos"/>
+            />
     </LinearLayout>
 
     <ScrollView

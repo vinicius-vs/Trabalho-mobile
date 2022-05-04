@@ -22,21 +22,19 @@ public class HomeActivity extends AppCompatActivity {
     private FragmentHomeBinding  binding;
 
     @Override
-    protected void onCreate(@Nullable Bundle savedInstanceState) {
+    protected void onCreate( Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.fragment_home);
+
 
 
         binding = FragmentHomeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
-
-        Button button = binding.bPublicar;
-        button.setOnClickListener(new View.OnClickListener() {
+        binding.bPublicar.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {
-                Snackbar mySnackbar = Snackbar.make(view, "Em construção", Snackbar.LENGTH_LONG);
-                mySnackbar.show();
+            public void onClick(View v) {
+                Snackbar.make(v, "Função em construção ", Snackbar.LENGTH_LONG)
+                        .setAction("Action", null).show();
             }
         });
     }

@@ -1,6 +1,5 @@
 package com.example.appmain.ui.main;
 
-import android.app.Activity;
 import android.content.Context;
 
 import androidx.annotation.Nullable;
