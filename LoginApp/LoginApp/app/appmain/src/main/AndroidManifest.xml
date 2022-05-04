@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.appmain">
+    package="com.example.appmain" >
 
     <application
         android:allowBackup="true"
@@ -8,12 +8,19 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.LoginApp">
+        android:theme="@style/Theme.LoginApp" >
+        <activity
+            android:name=".CriarEquipeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".EquipeActivity"
+            android:exported="false"
+            android:label="@string/title_activity_equipe" />
         <activity
             android:name=".TabActivity"
             android:exported="true"
             android:label="@string/app_name"
-            android:theme="@style/Theme.LoginApp.NoActionBar">
+            android:theme="@style/Theme.LoginApp.NoActionBar" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

@@ -4,4 +4,8 @@
     <string name="tab_text_2">Equipe</string>
     <string name="tab_text_3">Chat</string>
     <string name="tab_text_4">Rank</string>
+    <string name="title_activity_equipe">EquipeActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
 </resources>

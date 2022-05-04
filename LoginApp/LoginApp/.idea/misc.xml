@@ -3,16 +3,18 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="app/appmain/src/main/res/layout/activity_tab.xml" value="0.25" />
+        <entry key="app/appmain/src/main/res/layout/activity_criar_equipe.xml" value="0.25" />
+        <entry key="app/appmain/src/main/res/layout/activity_tab.xml" value="0.1" />
         <entry key="app/appmain/src/main/res/layout/blank_fragment.xml" value="0.20677083333333332" />
         <entry key="app/appmain/src/main/res/layout/fragment_Equipe.xml" value="0.1" />
         <entry key="app/appmain/src/main/res/layout/fragment_chat.xml" value="0.1" />
-        <entry key="app/appmain/src/main/res/layout/fragment_equipe.xml" value="0.1" />
+        <entry key="app/appmain/src/main/res/layout/fragment_equipe.xml" value="0.17080745341614906" />
         <entry key="app/appmain/src/main/res/layout/fragment_home.xml" value="0.18" />
         <entry key="app/appmain/src/main/res/layout/fragment_rank.xml" value="0.20677083333333332" />
         <entry key="app/appmain/src/main/res/layout/fragment_tab.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.11458333333333333" />
         <entry key="app/src/main/res/layout/fragment_criar.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/fragment_login.xml" value="0.16666666666666666" />
       </map>
     </option>
   </component>

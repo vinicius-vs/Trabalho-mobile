@@ -8,10 +8,6 @@ import androidx.fragment.app.Fragment;
 import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentPagerAdapter;
 
-import com.example.appmain.FragmentChat;
-import com.example.appmain.FragmentEquipe;
-import com.example.appmain.FragmentHome;
-import com.example.appmain.FragmentRank;
 import com.example.appmain.R;
 
 /**
