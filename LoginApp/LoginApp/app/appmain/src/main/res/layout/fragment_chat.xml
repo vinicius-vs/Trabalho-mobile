@@ -1,15 +1,160 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:orientation="vertical"
     android:layout_height="match_parent"
+    android:background="@drawable/papel_de_parede_joystick_60cm_x_3_00m_cola"
     android:gravity="center"
-    >
+    android:orientation="vertical"
+    android:textDirection="firstStrongRtl">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="em construção"
-        android:textSize="30sp"
-        />
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="25dp"
+        android:background="@color/cardview_shadow_start_color"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="42dp"
+            android:background="@color/cardview_shadow_end_color"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/editTextTextPersonName3"
+                android:layout_width="371dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:backgroundTint="@color/cardview_light_background"
+                android:ems="10"
+                android:hint="Pesquisar Usuário"
+                android:inputType="textPersonName"
+                android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                tools:ignore="TouchTargetSizeCheck" />
+
+            <ImageView
+                android:id="@+id/pesquisa"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginHorizontal="5dp"
+                android:layout_weight="1"
+                android:background="@color/white"
+                android:backgroundTint="@color/cardview_light_background"
+                app:srcCompat="@drawable/procurando_lente_de_aumento" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="300dp"
+        android:layout_height="match_parent"
+        android:layout_marginTop="15dp"
+        android:layout_marginBottom="25dp"
+        android:background="@color/cardview_shadow_start_color"
+        tools:ignore="SpeakableTextPresentCheck">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/cardview_light_background"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton11"
+                    android:layout_width="10dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/cardview_light_background"
+                    android:minHeight="48dp"
+                    app:srcCompat="@android:drawable/presence_online"
+                    tools:ignore="TouchTargetSizeCheck" />
+
+                <TextView
+                    android:id="@+id/textView10"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:text="versos-anon"
+                    android:textAlignment="textStart"
+                    android:textColor="@color/black"
+                    android:textSize="16sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:background="@color/white"
+                    android:text=" Partiu mine!"
+                    android:textColor="@color/cardview_dark_background"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="15dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="35dp"
+                android:background="@color/white"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/imageButton12"
+                    android:layout_width="10dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:backgroundTint="@color/white"
+                    app:srcCompat="@android:drawable/presence_invisible" />
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="250dp"
+                    android:layout_height="30dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:text="play 01"
+                    android:textColor="@color/black"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:layout_weight="1"
+                    android:background="@color/white" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
 </LinearLayout>
