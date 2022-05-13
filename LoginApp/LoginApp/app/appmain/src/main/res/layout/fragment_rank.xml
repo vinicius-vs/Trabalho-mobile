@@ -20,8 +20,8 @@
             android:layout_width="match_parent"
             android:layout_height="85dp"
             android:gravity="left"
-            android:textSize="25sp"
-            android:text="Seu rank: \nScorte: \nConquistas: "/>
+            android:text="Seu rank: \nScore: \nConquistas: "
+            android:textSize="25sp" />
 
 
     </LinearLayout>
