@@ -34,7 +34,7 @@ public class TabActivity extends AppCompatActivity {
         tabs.setupWithViewPager(viewPager);
         tabs.getTabAt(0).setIcon(R.drawable.home);
         tabs.getTabAt(1).setIcon(R.drawable.equipe);
-        tabs.getTabAt(2).setIcon(R.drawable.chat);
+        tabs.getTabAt(2).setIcon(R.drawable.chat  );
         tabs.getTabAt(3).setIcon(R.drawable.rank);
         FloatingActionButton fab = binding.fab;
 
