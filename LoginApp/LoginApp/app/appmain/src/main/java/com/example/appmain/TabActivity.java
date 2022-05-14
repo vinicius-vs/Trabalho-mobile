@@ -1,5 +1,6 @@
 package com.example.appmain;
 
+import android.content.Intent;
 import android.os.Bundle;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -12,6 +13,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.Button;
 
 import com.example.appmain.ui.main.SectionsPagerAdapter;
 import com.example.appmain.databinding.ActivityTabBinding;
@@ -45,5 +47,7 @@ public class TabActivity extends AppCompatActivity {
                         .setAction("Action", null).show();
             }
         });
+
     }
+
 }
