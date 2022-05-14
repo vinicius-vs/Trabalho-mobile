@@ -1,5 +1,10 @@
 <resources>
     <string name="app_name">AppMain</string>
+    <string name="title_login">SEJA BEM-VINDO</string>
+    <string name="login">LOGIN</string>
+    <string name="text_cadastro">Criar conta</string>
+    <string name="title_cadastro">Cadastra-se</string>
+    <string name="cadastro">CRIAR</string>
     <string name="tab_text_1">Home</string>
     <string name="tab_text_2">Equipe</string>
     <string name="tab_text_3">Chat</string>
