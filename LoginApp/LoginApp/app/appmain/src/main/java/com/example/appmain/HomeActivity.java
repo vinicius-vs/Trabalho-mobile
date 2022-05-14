@@ -26,8 +26,15 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
 
+Button publicarButton = (Button) findViewById(R.id.bPublicar);
 
-        binding = FragmentHomeBinding.inflate(getLayoutInflater());
+publicarButton.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        return;
+    }
+});
+      /*  binding = FragmentHomeBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         binding.bPublicar.setOnClickListener(new View.OnClickListener() {
@@ -36,6 +43,6 @@ public class HomeActivity extends AppCompatActivity {
                 Snackbar.make(v, "Função em construção ", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
             }
-        });
+        });*/
     }
 }

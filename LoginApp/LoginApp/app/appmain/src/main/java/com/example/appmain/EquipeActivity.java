@@ -30,6 +30,8 @@ public class EquipeActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Snackbar.make(view, "Função em construção ", Snackbar.LENGTH_LONG)
                         .setAction("Action", null).show();
+
+                return;
             }
         });
         Button buttonCriar = (Button) findViewById(R.id.buttonCriar);
@@ -45,6 +47,7 @@ public class EquipeActivity extends AppCompatActivity {
     public void criarEquipe(View view) {
         Intent intent = new Intent(this, CriarEquipeActivity.class);
         startActivity(intent);
+        return;
     }
 
 }
