@@ -41,14 +41,15 @@
                 android:layout_height="32dp"
                 app:srcCompat="@drawable/procurando_lente_de_aumento" />
         </LinearLayout>
-        <Button
-            android:id="@+id/buttonCriar"
-            style="@style/Theme.LoginApp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:backgroundTint="@color/cardview_dark_background"
-            android:text="Criar Equipe"
-            />
+
+            <Button
+                android:id="@+id/buttonCriar"
+                style="@style/Theme.LoginApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/cardview_dark_background"
+                android:text="Criar Equipe"
+                />
     </LinearLayout>
 
     <ScrollView
