@@ -18,7 +18,7 @@ import android.widget.Button;
 import com.example.appmain.ui.main.SectionsPagerAdapter;
 import com.example.appmain.databinding.ActivityTabBinding;
 
-public class TabActivity extends AppCompatActivity {
+public class TabActivity extends AppCompatActivity  {
 
     private ActivityTabBinding binding;
 

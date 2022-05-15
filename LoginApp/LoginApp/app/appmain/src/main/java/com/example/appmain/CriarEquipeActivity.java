@@ -9,6 +9,7 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
 
+import com.example.appmain.ui.main.FragmentEquipe;
 import com.google.android.material.snackbar.Snackbar;
 
 import java.util.List;
@@ -55,7 +56,7 @@ public class CriarEquipeActivity extends AppCompatActivity {
 
     }
     public void retornarPaginaEquipe(View view){
-        Intent intent = new Intent(this, EquipeActivity.class);
+        Intent intent = new Intent(this, FragmentEquipe.class);
         startActivity(intent);
     }
 }

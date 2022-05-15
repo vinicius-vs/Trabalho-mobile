@@ -24,10 +24,6 @@
             android:name=".CriarEquipeActivity"
             android:exported="false" />
         <activity
-            android:name=".EquipeActivity"
-            android:exported="false"
-            android:label="@string/title_activity_equipe" />
-        <activity
             android:name=".TabActivity"
             android:exported="true"
             android:label="@string/app_name"
